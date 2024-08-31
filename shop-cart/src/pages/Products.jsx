@@ -11,7 +11,7 @@ function Products(props) {
         <p> ${price}</p>
       </div> 
      <button className="addToCartBttn">
-
+     <b> Add To Cart</b>
      </button>
   </div>
   )
