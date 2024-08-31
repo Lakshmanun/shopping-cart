@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Navbar from './componets/Navbar';
 import Shop from './pages/Shop';
 import Cart from './pages/Cart';
+import ShopcontextProvider from './contex/Shop-contex';
 function App() {
   return <div>
 
-
-    <Router>
+<ShopcontextProvider>  
+<Router>
       <Navbar/>
       <Routes>
     
@@ -16,6 +17,8 @@ function App() {
       </Routes>
 
     </Router>
+</ShopcontextProvider>
+
   </div>
 }
 

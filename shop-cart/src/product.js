@@ -8,6 +8,7 @@ import product6 from './assect/products/6.webp';
 import product7 from './assect/products/7.webp';
 import product8 from './assect/products/8.webp';
 
+
 export const PRODUCTS = [
   {
     id: 1,
@@ -52,9 +53,10 @@ export const PRODUCTS = [
     productImage: product7,
   },
   {
-    id: 8,
-    productName: " UNSTRUCTURED HAT",
-    price: 40.0,
+    id: 7,
+    productName: "AUTOSERVICE HAT ",
+    price: 120.0,
     productImage: product8,
   },
+
 ];
